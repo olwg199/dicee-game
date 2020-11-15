@@ -25,9 +25,9 @@ function getImgUrlByNumber(number) {
 
 function changeTitleForWinner() {
     if(firstRandomNumber > secondRandomNumber){
-        document.getElementById("js-title").innerText = "First Player Wins";
+        document.getElementById("js-title").innerText = "🏴 First Player Wins";
     } else if(firstRandomNumber < secondRandomNumber) {
-        document.getElementById("js-title").innerText = "Second Player Wins";
+        document.getElementById("js-title").innerText = "Second Player Wins 🏴";
     } else {
         document.getElementById("js-title").innerText = "Draw!";
     }
